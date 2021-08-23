@@ -4,7 +4,7 @@
 
 **Referencia complementaria:** Alessandro B. Melchiorre, Eva Zangerle, and Markus Schedl. “Personality Bias of
 Music Recommendation Algorithms”. In: Fourteenth ACM Conference on Recommender Systems. RecSys ’20. Virtual Event, Brazil: Association for Computing Machinery, 2020, pp. 533–538. isbn: 9781450375832. doi: 10.1145/3383313.3412223.
-url: https://doi.org/10.1145/3383313.3412223.
+Recuperado de: https://doi.org/10.1145/3383313.3412223.
 
 **Referencia complementaria:** Gonzales, Ignacia & Valencia, Vicente. "Sesgo de Personalidad en Recomendación de Música: objetivos
 Beyond-Accurracy". Pontificia universidad Católica de Chile. Recuperado de: https://github.com/PUC-RecSys-Class/RecSysPUC-2020/blob/master/proyecto/proy_finales_2020/Valencia%20et%20al.pdf.
