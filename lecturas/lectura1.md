@@ -14,7 +14,7 @@ la cual presenta un error, pues el término r_ui es una constante en dicha fórm
 
 Por otro lado, se describen los problemas que presentan estos tipos de algoritmos. Si bien son variados los puntos abordados, me llamó la atención en particular el problema del sesgo en las recomendaciones. Se menciona que solo algunos usuarios concentran la mayor parte de los ratings entregados, mientras que la gran masa posee pocas o nulas calificaciones. Esto podría describirse como la distribución Beta, como se puede ver en la figura adjunta, donde la mayor parte del área está centrada por solo una fracción pequeña del eje x, que en este caso serían las personas.
 
-![image](https://user-images.githubusercontent.com/42195947/130527764-a61da1c8-853f-4991-991c-6431ca9035e2.png =100x20)
+<img src="(https://user-images.githubusercontent.com/42195947/130527764-a61da1c8-853f-4991-991c-6431ca9035e2.png" alt="drawing" width="200"/>
 
 A mí particularmente me ha tocado trabjar en modelos predictivos donde el sesgo es un tema primordial, al mismo nivel que la precisión de las predicciones. Por lo mismo, me llamó la atención que en este paper no se destacara la importancia de este problema, ni mucho menos se dieran indicios de posibles soluciones o referencias en las que se aborde en mayor profundidad.
 
