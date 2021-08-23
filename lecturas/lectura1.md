@@ -1,9 +1,11 @@
 # Collaborative filtering recommender systems
 
 **Referencia base:** Schafer, J. B., Frankowski, D., Herlocker, J., & Sen, S. (2007). Collaborative filtering recommender systems. In The adaptive web (pp. 291-324). Springer Berlin Heidelberg.
+
 **Referencia complementaria:** Alessandro B. Melchiorre, Eva Zangerle, and Markus Schedl. “Personality Bias of
 Music Recommendation Algorithms”. In: Fourteenth ACM Conference on Recommender Systems. RecSys ’20. Virtual Event, Brazil: Association for Computing Machinery, 2020, pp. 533–538. isbn: 9781450375832. doi: 10.1145/3383313.3412223.
 url: https://doi.org/10.1145/3383313.3412223.
+
 **Referencia complementaria:** Gonzales, Ignacia & Valencia, Vicente. "Sesgo de Personalidad en Recomendación de Música: objetivos
 Beyond-Accurracy". Pontificia universidad Católica de Chile. Recuperado de: https://github.com/PUC-RecSys-Class/RecSysPUC-2020/blob/master/proyecto/proy_finales_2020/Valencia%20et%20al.pdf.
 
@@ -20,6 +22,6 @@ Por otro lado, se describen los problemas que presentan estos tipos de algoritmo
 
 ![image](https://user-images.githubusercontent.com/42195947/130528381-c9532033-6320-4195-b8a3-6df0fb7ff54c.png)
 
-A mí particularmente me ha tocado trabajar en modelos predictivos donde el sesgo es un tema primordial, al mismo nivel que la precisión de las predicciones. Por lo mismo, me llamó la atención que en este paper no se destacara la importancia de este problema, ni mucho menos se dieran indicios de posibles soluciones o referencias en las que se aborde en mayor profundidad.
+A mí particularmente me ha tocado trabajar en modelos predictivos donde el sesgo es un tema primordial, al mismo nivel que la precisión de las predicciones. Me llamó la atención que en este paper no se destacara la importancia de este problema, ni mucho menos se dieran indicios de posibles soluciones o referencias en las que se aborde en mayor profundidad.
 Por lo mismo, investigué bibliografía complementaria respecto a la temática, donde el sesgo o *bias* está presente de múltiples formas. En particular, Melchiorre, Schedl y Zangerle (2020), realizaron una investigación respecto al sesgo en los algoritmos de recomendación de música. Específicamente, se centraron en el estudio del sesgo de personalidad, del cual concluyen y confirman su importancia en la calidad de los resultados, considerando que un mayor o menor sesgo en, por ejemplo, grupos de determinados rangos de edad, puede implicar mejores o mayores resultados de precisión. Por lo mismo, y considerando las distintos métricas y  enfoques de estas mismas presentados en la lectura analizada, se deduce la gran importancia de escoger una diversificación de métricas, que aborden la calidad del algoritmo desde distitnas perspectivas, de manera de suavizar la influencia del sesgo mencionado. Esta, en un principio, puede ser la solución más factible o fácil para el problema del sesgo presentado, sin necesariamente entrar en cambios del mismo algoritmo. Aún así, se plantean soluciones alternativas, por ejemplo, el uso de tests estadísticos para determinar cuán significativa es la diferencia en las métricas ante la presencia de cada sesgo (Gonzalez & Valencia, 2020).
 
