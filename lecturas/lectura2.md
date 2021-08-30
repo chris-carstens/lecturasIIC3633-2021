@@ -1,4 +1,3 @@
-Create lectura2.md
  # Matrix factorization techniques for recommender systems
 
 **Referencia base:** 
