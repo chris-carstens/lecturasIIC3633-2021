@@ -12,3 +12,7 @@ Por otro lado, también se concluye que el algoritmo es eficiente en cuanto a me
 
 **Referencia base:** 
 - Koren, Y., Bell, R., & Volinsky, C. (2009). Matrix factorization techniques for recommender systems. Computer, 42(8), 30-37.
+**Referencias complementarias**
+
+- Takács, G., Pilászy, I., Németh, B., & Tikk, D. (2008). Investigation of Various Matrix Factorization Methods for Large Recommender Systems. 2008 IEEE International Conference on Data Mining Workshops. doi:10.1109/icdmw.2008.86 
+
