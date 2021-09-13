@@ -26,8 +26,10 @@ a pesar de que se viole el supuesto de independencia de clases cuando es utiliza
 Incluso, entrega una referencia y explicación respecto al porqué esto ocurriría. 
 Sin duda alguna, creo que estos apartados son especialmente útiles para un lector que busque una implementación empírica en el contexto de clasificadores o recomendaciones en base a contenido de texto.
 
+Dichos estos puntos respecto al paper, considero que otro texto que se complementa de muy buena manera, es el de Celma y Herrera (2008). Particularmente, dado que en el paper leído no se hablan de las métricas para evaluar un sistema recomendador basado en contenido, la sección de este paper complementario, llamada *Item-Centric Evaluation*, permite definir empíricamente distintas métricas para analizar las propuestas. En este punto, plantea métricas asociadas a la navegación, como la *average shortest path*, que mide la distancia entre dos ítems, y a la conectividad, como el *degree distribution*, que es el número de ítems similares a un ítem de referencia. 
+
 **Referencia base:** 
 - Pazzani, M. J., & Billsus, D. (2007). Content-based recommendation systems. In The adaptive web (pp. 325-341).
 
 **Referencias complementarias**
-- 
+- Celma, Ò., & Herrera, P. (2008). A new approach to evaluating novel recommendations. Proceedings of the 2008 ACM Conference on Recommender Systems - RecSys  ’08. doi:10.1145/1454008.1454038 
