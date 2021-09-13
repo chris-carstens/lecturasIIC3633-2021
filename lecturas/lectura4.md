@@ -1,5 +1,6 @@
 # Content-Based Recommendation Systems
 
+Este paper secciona los puntos importantes para elaborar un sistema recomendador basado en contenido, con un enfoque principal en texto.
 Se presenta el uso de datos estructurados y no estructurados, para representar un ítem. 
 Particularmente, en el caso de los datos no estructurados (por ejemplo, entradas de texto irrestrictas), se plantean limitaciones 
 que pueden darse en su uso, por ejemplo, al convertir la data no estructurada en estructurada. 
@@ -7,7 +8,7 @@ Aquí, utilizando estadísticas de frecuencia de aparición de palabras en el te
 Se da el ejemplo de que, si escribo que una parrilla no tiene ningún menú vegetariano, la aparición de esa palabra puede concluir en exactamente lo contrario. 
 Por lo mismo también existen variantes que utilizan palabras contiguas para formar pesos en las apariciones, y no palabras individuales como el ejemplo mencionado.
 
-En el apartado de *Learning a User model*, se exiplica de manera general la forma en que se modelan las preferencias del usuario, quedando bastante claro en términos 
+En el apartado de *Learning a User model*, se explica de manera general la forma en que se modelan las preferencias del usuario, quedando bastante claro en términos 
 conceptuales, tanto mediante el uso de ratings explícitos como implícitos. Sin embargo, en términos empíricos o de implementación, no se explica cómo se arma el perfil del 
 usuario con el cual posteriormente se calculará la similitud respecto a los ítems, o el *embedding* que lo representa y sus formas de calcularlo. 
 Además, creo que habría sido interesante analizar cómo se determina empíricamente la relevancia de los ratings, ya sean directos o indirectos. 
