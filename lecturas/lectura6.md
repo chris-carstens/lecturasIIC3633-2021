@@ -21,10 +21,15 @@ Se transforma esta vez a través de una función *f* representada por el percept
 
 A pesar de las completas referencias, me hubiese gustado abarcar un poco más las desventajas o requisitos de cada método de aprendizaje profundo en específico, como el recíen mostrado. Particularmente, con el enfoque comparativo de métodos tradicionales vs métodos de aprendizaje profundo, pues dadas condiciones conocidas como la necesidad de de grandes cantidades de datos o sensibilidad de los hiperparámetros en estos últimos, resulta importante conocer el umbral dentro del cual un método de aprendizaje profundo puede empeorar los resultados frente a un método tradicional, dada la impropicia que podría surgir dentro del contexto en que se implemente.
 
+Una referencia que me pareció interesante dentro de lo mencionado, y de particularmente el problema del *cold-start* que predomina en los métodos de filtrado colaborativo, esencialmente ante la escasez de datos, es la entregada por Bansal, Belanger y McCallum (2016) en el paper denominado Ask the GRU: Multi-task Learning for
+Deep Text Recommendations. Como el aprendizaje produndo es conocido por su voracidad de datos, se recalca este problema del *cold-start*. Para lo mismo, este paper, en primer lugar, presenta distintas opciones en la bibliografía que buscan aterrizar estos métodos para mejorar este problema, como el uso de un codificador automático de *bag of words* en
+el modelo dentro de un marco bayesiano (para recomendaciones en base a texto), el uso de redes neuronales para conocer la función de similitud entre el usuario y los factores latentes del elemento, entre otros métodos. El paper entonces, propone un nuevo enfoque denominado *Multi-task learning*, que mejora las métricas dentro del problema de *cold-start* para las recomendaciones por texto.
+
 **Referencia base:** 
 
 - Zhang, S., Yao, L., Sun, A., & Tay, Y. (2019). Deep learning based recommender system: A survey and new perspectives. ACM Computing Surveys (CSUR), 52(1), 1-38.
 
 **Referencias complementarias:** 
 
-- 
+- Bansal, T., Belanger, D., & McCallum, A. (2016). Ask the gru: Multi-task learning for deep text recommendations. In Proceedings of the 10th ACM Conference on Recommender Systems (pp. 107-114).
+
