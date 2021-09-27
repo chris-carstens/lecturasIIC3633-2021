@@ -19,7 +19,7 @@ Se transforma esta vez a través de una función *f* representada por el percept
 
 ![image](https://user-images.githubusercontent.com/42195947/134972571-a359547a-7ee4-4bfa-93a9-51f0bd9eee81.png)
 
-Permitiendo, en teoría, lograr un mejor desempeño, dependiendo de, por ejemplo, la cantidad de datos presentes.
+A pesar de las completas referencias, me hubiese gustado abarcar un poco más las desventajas o requisitos de cada método de aprendizaje profundo en específico, como el recíen mostrado. Particularmente, con el enfoque comparativo de métodos tradicionales vs métodos de aprendizaje profundo, pues dadas condiciones conocidas como la necesidad de de grandes cantidades de datos o sensibilidad de los hiperparámetros en estos últimos, resulta importante conocer el umbral dentro del cual un método de aprendizaje profundo puede empeorar los resultados frente a un método tradicional, dada la impropicia que podría surgir dentro del contexto en que se implemente.
 
 **Referencia base:** 
 
