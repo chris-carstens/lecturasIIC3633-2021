@@ -11,11 +11,8 @@ Una temática que particularmente me llamó la atención, por el hecho principal
 
 Paritcularmente, la transformación lineal que se realizar mediante la multiplicación de los vecotes lineales con una matriz, en este caso se transforma en una transformación no lineal, dada por la *Neural CF Layer* que se aprecia en la figura. Esto demuestra, como también en los siguientes ejemplos del texto, que los conceptos no son enteramente distantes, sino más bien, son distintos medios para realizar el mismo fin,
 
-A través de esta nueva versión del método de MF, usando aprendizaje profundo, la clálica función para predecir el rating en factorización matricial:
-
-![image](https://user-images.githubusercontent.com/42195947/134972454-28c3fc55-9d5f-4121-a980-44fa00c9f734.png)
-
-Se transforma esta vez a través de una función *f* representada por el perceptrón multicapa:
+A través de esta nueva versión del método de MF, usando aprendizaje profundo, la clálica función para predecir el rating en factorización matricial, en función de ambos vectores latentes,
+se transforma esta vez a través de una función *f* representada por el perceptrón multicapa:
 
 ![image](https://user-images.githubusercontent.com/42195947/134972571-a359547a-7ee4-4bfa-93a9-51f0bd9eee81.png)
 
