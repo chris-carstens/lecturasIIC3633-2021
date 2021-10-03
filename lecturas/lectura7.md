@@ -20,10 +20,8 @@ el control influye en la experiencia de los usuarios. Con estos antecedentes, lo
 ![image](https://user-images.githubusercontent.com/42195947/135738318-ea72068b-158d-4638-9979-3e4998aa323b.png)
 
 Donde las recomendaciones serán en orden de estos pesos.
-
-De esta manera, el usuario tiene un control mucho mayor, tanto pudiendo ajustar los pesos de sus amigos ítems inicialmente, como de los amigos.
-
-Esto se ve reflejado en la siguiente figura, la cual complementa a la ya mostrada dentro del texto de He, Parra y verbert.
+De esta manera, el usuario tiene un control mucho mayor, tanto para ajustar los pesos de sus ítems, como de los amigos.
+Esto se ve reflejado en la siguiente figura, la cual complementa a la ya mostrada dentro del texto de He, Parra y Verbert.
 
 ![image](https://user-images.githubusercontent.com/42195947/135738421-aa81b728-4dbf-489c-8fce-8cd106817e13.png)
 
