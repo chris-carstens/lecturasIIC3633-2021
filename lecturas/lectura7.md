@@ -19,4 +19,4 @@ Por ejemplo, otro punto que me interesó mucho fue que la efectividad de los sis
 
 **Referencias complementarias:** 
 
--
+- Knijnenburg, B., Bostandjiev, S., O'Donovan, J., and Kobsa, A. (2012). Inspectability and control in social recommenders. RecSys'12 - Proceedings of the 6th ACM Conference on Recommender Systems.
