@@ -13,6 +13,21 @@ Un ejemplo que me pareció bastante bueno y evidentemente útil, fue lograr just
 De esta manera, en general, la sección que encontré de menor utilidad fue la de análisis. Por el nombre de esta, me esperaba, ya sea una crítica o aportes acerca de lo recopilado en las secciones anteriores. Sin embargo, considero que se presentan directamente como recopilación de si las distintas investigaciones cumplen o no cumplen el objetivo, presentando la proporción que contempla cada temática dentro de la investigación. Sin embargo, creo, a nivel personal, que esto no aporta mucho al aprendizaje o conocimiento del lector, pudiendo haberse resumido en una simple nota. En esta sección esperaba comentarios como, posibles causas del porqué tan pocas investigaciones abarcaron la diversidad (solo una de las presentadas), qué tecnologías o innovaciones están liderando actualmente la mejora continua de cada temática, etc.
 Por ejemplo, otro punto que me interesó mucho fue que la efectividad de los sistemas recomendadores va más allá de la precisión empírica o numérica, sino que esta depende de la utilidad que genera al usuario, y que se puede lograr considerando los distintos objetivos del framework enumerados en el paper. Creo que, como parte del análisis, hubiese sido interesante ahondar en este tema de manera explícita a través de algunos 
 
+Una lectura que se complementa de muy buena manera con este paper, es *Inspectability and control in social recommenders*, de los autores Knijnenburg, Bostandjiev, O'Donovan, y Kobsa (2012). Particularmente respecto al último punto que destaqué en los comentarios, y que me interesaba bastante profundizar, este texto detalla y explicita que no solo les interesa la calidad de las recomendaciones, sino también la satisfacción de los usuarios con el sistema como
+entero. De esta manera, plantea los conceptos de comprensibilidad y control percibido para explicar cómo la inspeccionabilidad y
+el control influye en la experiencia de los usuarios. Con estos antecedentes, los autores plantean un *framework* para realizar recomendaciones de música a partir de datos de interacciones sociales en Facebook. Este sistema analizado se denomina TasteWeights, cuyo algoritmo de recomendación consta de dos pasos: primero computa los pesos para cada amigo de Facebook, basado en la similaridad, definida por el coeficiente de correlación de Pearson. Posteriormente, se le asignan pesos a todos los ítems (musicales) de los amigos del usuario activo. De esta manera, el peso de cada recomendación viene dado por:
+
+![image](https://user-images.githubusercontent.com/42195947/135738318-ea72068b-158d-4638-9979-3e4998aa323b.png)
+
+Donde las recomendaciones serán en orden de estos pesos.
+
+De esta manera, el usuario tiene un control mucho mayor, tanto pudiendo ajustar los pesos de sus amigos ítems inicialmente, como de los amigos.
+
+Esto se ve reflejado en la siguiente figura, la cual complementa a la ya mostrada dentro del texto de He, Parra y verbert.
+
+![image](https://user-images.githubusercontent.com/42195947/135738421-aa81b728-4dbf-489c-8fce-8cd106817e13.png)
+
+
 **Referencia base:** 
 
 - He, C., Parra, D., & Verbert, K. (2016). Interactive recommender systems: A survey of the state of the art and future research challenges and opportunities. Expert Systems with Applications, 56, 9-27.
